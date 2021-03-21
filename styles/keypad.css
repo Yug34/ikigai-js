@@ -13,3 +13,11 @@
     grid-column-end: 4;
 }
 
+.gridContainer .keypadBtn {
+    height: 50px;
+    width: 75px;
+}
+
+.gridContainer .keypadBtn .subText {
+    display: block;
+}
