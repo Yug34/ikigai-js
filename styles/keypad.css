@@ -1,3 +1,4 @@
+/* Set up grid */
 .gridContainer {
     margin-left: 40%;
     border: 1px solid black;
@@ -18,6 +19,7 @@
     width: 75px;
 }
 
+/* display as block so it is rendered below button text */
 .gridContainer .keypadBtn .subText {
     display: block;
 }
