@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Keypad</title>
+    <link rel="stylesheet" href="styles/keypad.css">
 </head>
 <body>
+<div class="gridContainer">
     <input id="output" type="text">
 
-    <button class="keypadBtn">1 <small class="subText">.,!</small></button>
-    <button class="keypadBtn">2 <small class="subText">abc</small></button>
-    <button class="keypadBtn">3 <small class="subText">def</small></button>
+    <button class="keypadBtn" data-number="1" data-text=".,!">1 <small class="subText">.,!</small></button>
+    <button class="keypadBtn" data-number="2" data-text="abc">2 <small class="subText">abc</small></button>
+    <button class="keypadBtn" data-number="3" data-text="def">3 <small class="subText">def</small></button>
 
-    <button class="keypadBtn">4 <small class="subText">ghi</small></button>
-    <button class="keypadBtn">5 <small class="subText">jkl</small></button>
-    <button class="keypadBtn">6 <small class="subText">mno</small></button>
+    <button class="keypadBtn" data-number="4" data-text="ghi">4 <small class="subText">ghi</small></button>
+    <button class="keypadBtn" data-number="5" data-text="jkl">5 <small class="subText">jkl</small></button>
+    <button class="keypadBtn" data-number="6" data-text="mno">6 <small class="subText">mno</small></button>
 
-    <button class="keypadBtn">7 <small class="subText">pqrs</small></button>
-    <button class="keypadBtn">8 <small class="subText">tuv</small></button>
-    <button class="keypadBtn">9 <small class="subText">wxyz</small></button>
+    <button class="keypadBtn" data-number="7" data-text="pqrs">7 <small class="subText">pqrs</small></button>
+    <button class="keypadBtn" data-number="8" data-text="tuv">8 <small class="subText">tuv</small></button>
+    <button class="keypadBtn" data-number="9" data-text="wxyz">9 <small class="subText">wxyz</small></button>
 
-    <button class="keypadBtn">*</button>
-    <button class="keypadBtn">0</button>
-    <button class="keypadBtn">#</button>
+    <button class="keypadBtn" data-text="*">*</button>
+    <button class="keypadBtn" data-text="0">0</button>
+    <button class="keypadBtn" data-text="#">#</button>
+</div>
 </body>
+
+<script src="src/index.js"></script>
+
 </html>

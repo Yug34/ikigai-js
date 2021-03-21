@@ -1,0 +1,15 @@
+.gridContainer {
+    margin-left: 40%;
+    border: 1px solid black;
+    display: inline-grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.gridContainer #output {
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
