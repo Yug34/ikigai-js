@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("button");
+const buttons = document.getElementsByClassName("keypadBtn");
 const output = document.getElementById("output");
 
 for (const button of buttons) {
